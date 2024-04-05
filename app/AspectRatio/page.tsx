@@ -11,7 +11,7 @@ export default function page() {
 
                 <Image src={ratio} alt='' className="aspect-video  w-1/4 mt-3 "/>
 
-                <Image src={ratio} alt='' className="w-full aspect-ratio: 16 / 9  w-1/4 mt-3"/>
+                <Image src={ratio} alt='' className="aspect-ratio: 16 / 9  w-1/4 mt-3"/>
 
                 {/* Applying conditionally */}
                 <Image src={ratio} alt='' className="aspect-video hover:aspect-square w-1/4 mt-3"/>
