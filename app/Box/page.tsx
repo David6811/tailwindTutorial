@@ -19,6 +19,17 @@ export default function Page() {
                     </span>
                 </div>
             </div>
+
+            <div className="container mx-auto flex justify-center mt-5">
+                <div className="box-border h-32 w-32 p-4 border-8 border-red-500 bg-blue-100">
+                </div>
+            </div>
+
+            <div className="container mx-auto flex justify-center mt-5">
+                <div className="box-content h-32 w-32 p-4 border-8 border-red-500 bg-blue-100">
+                </div>
+            </div>
+
         </div>
     );
 }
