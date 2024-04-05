@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import demo from '../images/demo.png';
-
 
 export default function Page() {
     return (
@@ -28,9 +25,6 @@ export default function Page() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
-
-
-
         </div>
     );
 }
