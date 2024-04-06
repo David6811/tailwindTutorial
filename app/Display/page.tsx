@@ -51,7 +51,7 @@ export default function Page() {
                 </p>
 
 
-                <div className="grid gap-4 grid-cols-3 grid-rows-3">
+                <div className="grid gap-4 grid-cols-3 grid-rows-3 mt-5">
                     <span>01</span>
                     <span>02</span>
                     <span>03</span>
@@ -82,13 +82,36 @@ export default function Page() {
                 </span>
 
                 {/* contents */}
-                <div className="flex text-white">
+                <div className="flex text-white mt-5">
                     <div className="flex-1 mr-3 bg-blue-100 h-10 flex justify-center items-center">01</div>
                     <div className="contents">
                         <div className="flex-1 mr-3 bg-blue-100 h-10 flex justify-center items-center">02</div>
                         <div className="flex-1 mr-3 bg-blue-100 h-10 flex justify-center items-center">03</div>
                     </div>
                     <div className="flex-1 mr-3 bg-blue-100 h-10 flex justify-center items-center">04</div>
+                </div>
+
+                {/* table */}
+                <div className="table w-full mt-5">
+                    <div className="table-header-group ...">
+                        <div className="table-row font-bold">
+                            <div className="table-cell text-left ">Song</div>
+                            <div className="table-cell text-left ...">Artist</div>
+                            <div className="table-cell text-left ...">Year</div>
+                        </div>
+                    </div>
+                    <div className="table-row-group">
+                        <div className="table-row">
+                            <div className="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+                            <div className="table-cell ...">Malcolm Lockyer</div>
+                            <div className="table-cell ...">1961</div>
+                        </div>
+                        <div className="table-row">
+                            <div className="table-cell ...">Witchy Woman</div>
+                            <div className="table-cell ...">The Eagles</div>
+                            <div className="table-cell ...">1972</div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
